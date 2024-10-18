@@ -1,12 +1,14 @@
 {
-  "homepage": "https://github.com/SURESHLIVEUPDATE/portfolio/",
+  "homepage": "https://github.com/SURESHLIVEUPDATE/portfolio.git",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+     "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext .js,.jsx",
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
